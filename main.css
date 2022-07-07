@@ -1,0 +1,44 @@
+.picture_input  {
+    display: none;
+}
+
+.picture {
+    width: 300px;
+    aspect-ratio: 16/9;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    color: #aaa;
+    justify-content: center;
+    border: 2px dashed currentcolor;
+    cursor: pointer;
+    font-family: sans-serif;
+    transition: color 300ms ease-in-out, background 300ms ease-in-out, outline 300ms ease-in-out;
+    outline: 2px solid #fff;
+}
+
+.picture:hover {
+    color: #777;
+    background: #ccc;
+}
+
+.picture:active {
+    background: #ddd;
+    color: #aaa;
+    border-color: blue;
+}
+
+.picture:focus {
+    color: #777;
+    background: #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+
+}
+
+.picture_img {
+    max-width: 100%;
+}
+
+body {
+    
+}
